@@ -1,0 +1,29 @@
+<main class="container">
+  <h1>Minha Lista de Tarefas</h1>
+
+  <section class="form-container">
+
+    <input type="text" placeholder="O que precisa ser feito?" [(ngModel)]="novoTituloTarefa"
+      (keyup.enter)="adicionarTarefa()"> <button (click)="adicionarTarefa()">Adicionar</button>
+  </section>
+
+  <section class="list-container">
+    <ul>
+      <li *ngFor="let t of tarefas">
+
+        <span [class.concluida]="t.concluida">
+          {{ t.titulo }} </span>
+
+        <div class="botoes">
+          <button class="btn-concluir" (click)="toggleConcluida(t)">
+            {{ t.concluida ? 'Reabrir' : 'Concluir' }}
+          </button>
+          <button class="btn-excluir" (click)="excluirTarefa(t.id)">
+            Excluir
+          </button>
+
+        </div>
+      </li>
+    </ul>
+  </section>
+</main>
