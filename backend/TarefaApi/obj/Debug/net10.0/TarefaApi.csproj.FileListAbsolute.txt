@@ -37,3 +37,4 @@ C:\Users\andre\Documents\GitHub\Forma-TI\backend\TarefaApi\obj\Debug\net10.0\ref
 C:\Users\andre\Documents\GitHub\Forma-TI\backend\TarefaApi\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\andre\Documents\GitHub\Forma-TI\backend\TarefaApi\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\andre\Documents\GitHub\Forma-TI\backend\TarefaApi\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\andre\Documents\GitHub\Forma-TI\backend\TarefaApi\obj\Debug\net10.0\TarefaApi.sourcelink.json

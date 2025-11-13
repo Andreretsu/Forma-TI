@@ -1,14 +1,14 @@
 import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { Tarefa } from '../models/tarefa.model'; // Importamos nosso model
+import { Tarefa } from '../models/tarefa.model';
 
 @Injectable({
   providedIn: 'root',
 })
 export class TarefaService {
   private http = inject(HttpClient);
-  private apiUrl = 'http://localhost:5123/api/Tarefas';
+  private apiUrl = 'http://localhost:5159/api/Tarefas';
 
   constructor() {}
 
